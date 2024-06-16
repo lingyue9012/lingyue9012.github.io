@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>這我</title>
+    <link rel="stylesheet" href="res/style/reset.css">
+    <link rel="stylesheet" href="res/style/genericStyle.css">
+    <link rel="stylesheet" href="res/style/genericMediaScreen.css">
+    <link rel="stylesheet" href="res/style/menu.css">
+    <link rel="stylesheet" href="res/style/main.css">
+    <link rel="icon" href="img/avatar.png">
+    <style>
+        @media screen 
+        {
+            .intro .row
+            {
+                max-width: 300px; 
+                height: fit-content;
+            }
+        } 
+    </style>
+    <script>
+        function menuOff() 
+        {
+            document.querySelector('#menu_control').checked = false;
+        }
+    </script>
+</head>
+<body>
+    <input type="checkbox" id="menu_control">
+    <input type="button" value="test" onclick="menuOff()" id="closeMenu">
+
+    <label for="menu_control" class="menu-btn"></label>
+        <div class="menu">
+            <a href="index.html">• 關於我</a>
+            <a href="exp.html">• 經歷</a>
+            <a href="interest.html">• 興趣</a>
+            <a href="works.html">• 作品集</a>
+            <a href="spread.html">• 推廣</a>
+            <label for="closeMenu" class="closeMenu">X</label>
+        </div>
+
+
+    <div class="container">
+        <div class="intro">
+            <div class="ava" title="此頭像為BuiBui(白い雲)的創作, 點擊前往該繪師的X/Twitter"><a href="https://x.com/k_e_cttp" target="_blank"><img src="img/avatar.png" alt=""></a></div>
+            <div class="text">
+                <div class="col">
+                    <div class="row">
+                        <div class="ts">
+                            <p>關</p>
+                            <p>於</p>
+                            <p>我</p>
+                        </div>
+                    </div>
+                    <div class="br"></div>
+                    <div class="row">
+                        <div class="tl">
+                           <p>我是</p>
+                        </div>
+                        <div class="tr">
+                            <p>琰玥</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="tl">
+                           <p>今年</p>
+                        </div>
+                        <div class="tr">
+                         <p>21</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="tc">緩慢學習程式中......</div>
+                    </div>
+                    <div class="br-35"></div>
+                    <div class="row">
+                        <div class="ts">
+                            <p>聯</p>
+                            <p>絡</p>
+                            <p>方</p>
+                            <p>式</p>
+                        </div>
+                    </div>
+                    <div class="tc">
+                        如果你想找我的話...
+                    </div>
+                    <div class="br"></div>
+                    <div class="row">
+                        <div class="ts">
+                        <div class="social"><a href="https://discordapp.com/users/566811819298258965" target="_blank"><img src="img/ico/discordIcon.png" alt=""></a></div>
+                        <div class="social"><a href="https://www.facebook.com/profile.php?id=100006826189285" target="_blank"><img src="img/ico/facebookIcon.png" alt=""></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
