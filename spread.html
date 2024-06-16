@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>一點點的推廣</title>
+    <link rel="stylesheet" href="res/style/reset.css">
+    <link rel="stylesheet" href="res/style/genericStyle.css">
+    <link rel="stylesheet" href="res/style/genericMediaScreen.css">
+    <link rel="stylesheet" href="res/style/main.css">
+    <link rel="stylesheet" href="res/style/menu.css">
+    <link rel="icon" href="img/avatar.png">
+
+    <style>
+        .intro
+        {
+            position: relative;
+        }
+        .qrcode
+        {
+            height: 120px;
+            width: 100%;
+        }
+        .qrcode img
+        {
+            transition: 0.3s;
+        }
+        .qrcode img:hover
+        {
+            box-shadow: 0 0 15px #fb0;
+        }
+        .qrcode img
+        {
+            position: absolute;
+            width: 100px;
+            bottom: 20px;
+            right: 20px;
+            border-radius: 15px;
+        }
+        .qrcode p
+        {
+            position: absolute;
+            bottom: 20px;
+            right: 120px;
+        }
+    </style>
+    <script>
+        function menuOff() 
+        {
+            document.querySelector('#menu_control').checked = false;
+        }
+    </script>
+</head>
+<body>
+    <input type="checkbox" id="menu_control">
+    <input type="button" value="test" onclick="menuOff()" id="closeMenu">
+
+    <label for="menu_control" class="menu-btn"></label>
+        <div class="menu">
+            <a href="index.html">• 關於我</a>
+            <a href="exp.html">• 經歷</a>
+            <a href="interest.html">• 興趣</a>
+            <a href="works.html">• 作品集</a>
+            <a href="spread.html">• 推廣</a>
+            <label for="closeMenu" class="closeMenu">X</label>
+        </div>
+
+
+
+    <div class="container">
+        <div class="text">
+            <div class="tc">
+                <h1>一點點的工商服務時間(沒有錢)</h1>
+            </div>
+        </div>
+        <div class="br-35"></div>
+            <div class="intro nf">
+                <div class="ava"><img src="img/NFRbits(resize).jpg" alt=""></div>
+                <div class="text">
+                    <div class="col">
+                        <div class="row">
+                            <div class="tc">
+                                <h1>日暮黑兔</h1>
+                            </div>
+                        </div>
+                        <div class="br"></div>
+                        <div class="row">
+                            <p>一個休閒聊天/談論遊戲的小角落</p>
+                        </div>
+                        <div class="br"></div>
+                        <div class="row">
+                            <div class="tl">
+                                日暮黑兔於 今年(2024)四月 迎來了它的第五歲生日~~<br>
+                                <div class="br"></div>
+                                整體上是個聊天打屁、討論遊戲的一個小群組~。
+                                目前的形式較偏向於天命的公會群，但也歡迎其他的內容出現~<br>
+                            </div>
+                        </div>
+                        <div class="qrcode">
+                            <p>點擊或掃瞄QRcode前往~</p>
+                            <a href="http://discord.gg/zp9WqTkbAT" target="_blank"><img src="img/picsee_qrcode_NFRbitDC.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="br-35"></div>
+            <div class="intro nf">
+                <div class="ava"><img src="https://cdn.discordapp.com/avatars/516156700609347595/6fb79125490e49b6731f0c544ef8b399.webp" alt=""></div>
+                <div class="text">
+                    <div class="col">
+                        <div class="row">
+                            <div class="tc">
+                                <h1>蒼祈</h1>
+                            </div>
+                        </div>
+                        <div class="br"></div>
+                        <div class="row">
+                            <div class="tl">
+                                    我一位夜間部的捧油~<br>
+                                    最近下海想去開台啦~<br>
+                            </div>
+                        </div>
+                        <div class="br"></div>
+                        <div class="row">
+                            <div class="tl">
+                                <p>以下擷取至他的自介~</p>
+                                大家好，我是蒼祈平時喜歡玩遊戲，開臺時間平日10點到12點可能會開假日6點後可能會開，如果開的話歡迎來聊天(⁠・⁠∀⁠・⁠) <br>
+                                much7421@gmail.com
+                            </div>
+                        </div>
+                        <div class="br"></div>
+                        <div class="row">
+                            <div class="tr">
+                                <div class="s" style="font-size: smaller;color: #d5d5d550;"><s>開台想紅不易，我就幫到這了</s></div>
+                            </div>
+                        </div>
+                        <div class="qrcode">
+                            <p>點擊或掃瞄QRcode前往~</p>
+                            <a href="https://www.twitch.tv/shangyi7421" target="_blank"><img src="img/qrcode_www.twitch.tv.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>

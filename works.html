@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>一點點的作品</title>
+
+    <link rel="stylesheet" href="res/style/reset.css">
+    <link rel="stylesheet" href="res/style/genericStyle.css">
+    <link rel="stylesheet" href="res/style/genericMediaScreen.css">
+    <link rel="stylesheet" href="res/style/main.css">
+    <link rel="stylesheet" href="res/style/menu.css">
+    <link rel="icon" href="img/avatar.png">
+
+    <style>
+        @media screen and (max-width:768px) 
+        {
+            img,video
+            {
+                width: 100%;
+                max-width: 360px;
+            }
+            p
+            {
+                max-width: 360px;
+            }
+            .tr p
+            {
+                margin: auto 0 auto auto;
+            }
+        }
+
+        @media screen and (min-width:768px) 
+        {
+            img,video
+            {
+                width: 50%;
+            }
+        }
+
+    </style>
+    <script>
+        function menuOff() 
+        {
+            document.querySelector('#menu_control').checked = false;
+        }
+    </script>
+</head>
+<body>
+    <input type="checkbox" id="menu_control">
+    <input type="button" value="test" onclick="menuOff()" id="closeMenu">
+
+    <label for="menu_control" class="menu-btn"></label>
+        <div class="menu">
+            <a href="index.html">• 關於我</a>
+            <a href="exp.html">• 經歷</a>
+            <a href="interest.html">• 興趣</a>
+            <a href="works.html">• 作品集</a>
+            <a href="spread.html">• 推廣</a>
+            <label for="closeMenu" class="closeMenu">X</label>
+        </div>
+
+        <div class="container">
+            <div class="c-col">
+                <div class="text">
+                    <div class="tc"><h1>作品集</h1></div>
+                </div>
+                <div class="br-35"></div>
+                <div class="col">
+                    <div class="text">
+                        <p>二上模型課做的杯麵</p>
+                    </div>
+                    <img src="img/baymax.gif" alt="">
+                    <div class="br-25"></div>
+                    <div class="text">
+                        <div class="tr">
+                            <p>二上字學的一些東西</p>
+                        </div>
+                    </div>
+                    <div class="tr">
+                        <div class="pic">
+                            <div class="row">
+                                <div class="c-col">
+                                    <p>心中的一首詩</p>
+                                    <img src="img/心中的一首詩ー初音ミクの消失.png" alt="">
+                                </div>
+                            </div>
+                            <div class="br"></div>
+                            <div class="tr">
+                                <p>字體變化</p>
+                            </div>
+                            <div class="col">
+                                <img src="img/字體 (1).png" alt="">
+                            </div>
+                            <div class="col">
+                                <img src="img/字體 (2).png" alt="">
+                            </div>
+                            <div class="br"></div>
+                            <div class="tr">
+                                <p>雜誌編排</p>
+                                <div class="c-col">
+                                    <img src="img/封底_封面.png" alt="">
+                                    <img src="img/內頁2_3.png" alt="">
+                                    <img src="img/內頁4_5.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <p>二下物件導向</p>
+                    </div>
+                    <img src="img/w-g-01.png" alt="">
+                    <p>參考一些經典的小遊戲進行製作的期中</p>
+                    <div class="br"></div>
+                    <img src="img/w-g-02.png" alt="">
+                    <p>以練習槍械機制為主製作的期末</p>
+                    <img src="img/螢幕擷取畫面 2024-06-16 183424.png" alt="">
+                    <p>也參考了一些遊戲的數值計算</p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
